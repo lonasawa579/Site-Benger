@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/!main.css">
+  <title>Трио-тио</title>
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="nav-panel container">
+
+      <a href="index.html">
+        <div class="nav-logo">
+          <img src="assets/header/logo-priz1.png" alt="Benger EAts">
+        </div>
+      </a>
+
+      <div class="nav-cabinet">
+        <input type="button" value="Войти"
+          class="nav-element button nav-button">
+        <a href="#" class="icon-link nav-element">
+          <img src="assets/header/basket.svg" alt="Корзина">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="container">
+      <div class="hero-info">
+        <h1>Трио-тио</h1>
+        <div class="hero-info-footer">
+          <div class="store-type">₽₽₽ • Европейская</div>
+          <div class="hero-info-footer-time">40 - 50 мин</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a id="menu"></a>
+
+  <div class="tabs">
+
+    <input type="radio" name="tab-btn" data-num=0 id="tab-btn-1" value=""
+      checked>
+    <input type="radio" name="tab-btn" data-num=1 id="tab-btn-2" value="">
+    <input type="radio" name="tab-btn" data-num=2 id="tab-btn-3" value="">
+    <input type="radio" name="tab-btn" data-num=3 id="tab-btn-4" value="">
+    <input type="radio" name="tab-btn" data-num=4 id="tab-btn-5" value="">
+    <input type="radio" name="tab-btn" data-num=5 id="tab-btn-6" value="">
+
+    <div class="tabs-labels container">
+      <label id="tab-btn-label-1" data-num=0 for="tab-btn-1">Закуски</label>
+      <label id="tab-btn-label-2" data-num=1 for="tab-btn-2">Салаты</label>
+      <label id="tab-btn-label-3" data-num=2 for="tab-btn-3">Супы</label>
+      <label id="tab-btn-label-4" data-num=3 for="tab-btn-4">Горячие
+        блюда</label>
+      <label id="tab-btn-label-5" data-num=4 for="tab-btn-5">Гарниры</label>
+      <label id="tab-btn-label-6" data-num=5 for="tab-btn-6">Десерты</label>
+    </div>
+
+    <div class="hr-menu"></div>
+
+    <div class="header-with-arrows">
+      <div class="arrow-left-container">
+        <img class="arrow-left" src="assets/arrow-left.svg" alt="&lt;">
+      </div>
+      <h2 id="header-with-arrows-name">Закуски</h2>
+      <div class="arrow-right-container">
+        <img class="arrow-right" src="assets/arrow-right.svg" alt="&lt;">
+      </div>
+    </div>
+
+    <div class="tabs-contents container">
+
+      <div id="menu-1" class="tab-content">
+        <h2 class="header">Закуски</h2>
+        <div class="dish-cards">
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Бутерброды с авокадо и красной икрой</div>
+                <div class="dish-name-sub">Яркий и пикантный вкус.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 190 кл.</div>
+              <div class="kolichestvo">90 гр.</div>
+              <div class="dish-price">80</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/de1.jpg"
+              alt="Сельдь на бородинском хлебе">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Канапе с рыбой</div>
+                <div class="dish-name-sub">Закуска с красной рыбой и оливками.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 143 кл.</div>
+              <div class="kolichestvo">80 гр.</div>
+              <div class="dish-price">120</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/de22.jpg"
+              alt="Соленья ассорти">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Сэндвич с курицей</div>
+                <div class="dish-name-sub">Сытный сэндвич с курицей и овощами.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 216 кл.</div>
+              <div class="kolichestvo">200 гр.</div>
+              <div class="dish-price">210</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/de33.jpg"
+              alt="Грибы маринованные">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Фингер фут в тарталетках </div>
+                <div class="dish-name-sub">Тарталетки с паштетом и оливками.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 120 кл.</div>
+              <div class="kolichestvo">180 гр.</div>
+              <div class="dish-price">120</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/de4.jpg"
+              alt="Сало домашнее с горчицей">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Тарталетки с креветками</div>
+                <div class="dish-name-sub">Творожный сыр, икра и креветки - идеально для перекуса.</div>
+                <div class="dish-name-sub"></div>
+              </div>
+              <div class="energie">Энергетическая ценность - 201 кл.</div>
+              <div class="kolichestvo">120 гр.</div>
+              <div class="dish-price">299</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/de5.jpg"
+              alt="Малосольная сёмга">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Бутерброд с рыбой</div>
+                <div class="dish-name-sub">Классический бутерброд с маслом и красной рыбой.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 95 кл.</div>
+              <div class="kolichestvo">180 гр.</div>
+              <div class="dish-price">180</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/de61.png"
+              alt="Язык говяжий с хреном">
+          </a>
+        </div>
+      </div>
+
+      <div id="menu-2" class="tab-content">
+        <h2 class="header">Салаты</h2>
+        <div class="dish-cards">
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Салат Парижский с ветчиной</div>
+                <div class="dish-name-sub">Оригинальный салат, который
+                  непременно порадует вас своим неизбитым вкусом.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 252 кл.</div>
+              <div class="kolichestvo">100 гр.</div>
+              <div class="dish-price">130</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/w1.jpg"
+              alt="Салат Парижский с ветчиной">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Салат Тай биф</div>
+                <div class="dish-name-sub">Тайский салат с говядиной,
+                  вероятно, один из самых известных азиатских салатов.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 182 кл.</div>
+              <div class="kolichestvo">180 гр.</div>
+              <div class="dish-price">160</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/w2.jpg"
+              alt="Салат Тай биф">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Салат с брокколи и помидорами</div>
+                <div class="dish-name-sub">Диетический салат с насыщенным вкусом.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 94 кл.</div>
+              <div class="kolichestvo">120 гр.</div>
+              <div class="dish-price">99</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/w3.jpg"
+              alt="Салат с брокколи и помидорами">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Винегрет</div>
+                <div class="dish-name-sub">Традиционный рецепт винегрета</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 114 кл.</div>
+              <div class="kolichestvo">120 гр.</div>
+              <div class="dish-price">99</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/w4.jpg"
+              alt="Винегрет">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Салат Итальянский</div>
+                <div class="dish-name-sub">Низкокалорийный салат из разных сортов овощей</div>
+                <div class="dish-name-sub"></div>
+              </div>
+              <div class="energie">Энергетическая ценность - 102 кл.</div>
+              <div class="kolichestvo">180 гр.</div>
+              <div class="dish-price">120</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/w5.png"
+              alt="Салат Итальянский">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Салат Греческий</div>
+                <div class="dish-name-sub">Рецепт классического греческого салата.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 188 кл.</div>
+              <div class="kolichestvo">120 гр.</div>
+              <div class="dish-price">199</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/w6.jpg"
+              alt="Салат Греческий">
+          </a>
+        </div>
+      </div>
+
+      <div id="menu-3" class="tab-content">
+        <h2 class="header">Супы</h2>
+        <div class="dish-cards">
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Куриный суп - лапша</div>
+                <div class="dish-name-sub"></div>
+                <div class="dish-name-sub">Классический суп с вермишелью.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 102 кл.</div>
+              <div class="kolichestvo">250 гр.</div>
+              <div class="dish-price">180</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/s1.png"
+              alt="Куриный суп - лапша">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Суп из индейки с лапшой</div>
+                <div class="dish-name-sub">Суп из плотной лапшы со специями. </div>
+              </div>
+              <div class="energie">Энергетическая ценность - 208 кл.</div>
+              <div class="kolichestvo">250 гр.</div>
+              <div class="dish-price">270</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/m1.jpg"
+              alt="Суп из индейки с лапшой">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Турецкий суп Тучмач</div>
+                <div class="dish-name-sub">Крем - суп на основе кислого молока или натурального йогурта.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 96 кл.</div>
+              <div class="kolichestvo">140 гр.</div>
+              <div class="dish-price">140</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/m21.jpg"
+              alt="Турецкий суп Тучмач">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Суп с фрикодельками (Узбекский)</div>
+                <div class="dish-name-sub"> Готовится с кусочками говядины, фрикадельками из говяжьего фарша.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 250 кл.</div>
+              <div class="kolichestvo">300 гр.</div>
+              <div class="dish-price">280</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/m3.jpg"
+              alt="Суп с фрикодельками (Узбекский)">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Овощной суп </div>
+                <div class="dish-name-sub">низкокалорийное блюдо из риса, картошки, моркови и лука.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 77 кл.</div>
+              <div class="kolichestvo">180 гр.</div>
+              <div class="dish-price">110</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/m4.jpg"
+              alt="Овощной суп">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Куриный суп с рисом</div>
+                <div class="dish-name-sub">Сытный рисовый суп с курицей, рисом и мягким вкусом.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 170 кл.</div>
+              <div class="kolichestvo">220 гр.</div>
+              <div class="dish-price">250</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/m5.jpg"
+              alt="Куриный суп с рисом">
+          </a>
+        </div>
+      </div>
+
+      <div id="menu-4" class="tab-content">
+        <h2 class="header">Горячие блюда</h2>
+        <div class="dish-cards">
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Говядина на гриле</div>
+                <div class="dish-name-sub">Прекрасно подойдет для обеда.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 501 кл.</div>
+              <div class="kolichestvo">400 гр.</div>
+              <div class="dish-price">399</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/d1.jpg"
+              alt="Говядина на гриле">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Свинина с овощами</div>
+                <div class="dish-name-sub">Тушеная свинина вместе с овощами.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 362 кл.</div>
+              <div class="kolichestvo">420 гр.</div>
+              <div class="dish-price">420р</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/d2.jpg"
+              alt="Свинина с овощами">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Стейк с жаренной картошкой </div>
+                <div class="dish-name-sub">Стейк из говядины с овощами и засаленной картошкой.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 412 кл.</div>
+              <div class="kolichestvo">300 гр.</div>
+              <div class="dish-price">299</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/d3.jpg"
+              alt="Стейк с жаренной картошкой">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Шашлык из свинины </div>
+                <div class="dish-name-sub">Сочный шашлык в маринаде из приправ вместе с овощами. </div>
+              </div>
+              <div class="energie">Энергетическая ценность - 300 кл.</div>
+              <div class="kolichestvo">210 гр.</div>
+              <div class="dish-price">320</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/d4.jpg"
+              alt="Шашлык из свинины ">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Говяжий рулет</div>
+                <div class="dish-name-sub">Рулет из разных сортов говядины. </div>
+                <div class="dish-name-sub"></div>
+              </div>
+              <div class="energie">Энергетическая ценность - 230 кл.</div>
+              <div class="kolichestvo">250 гр.</div>
+              <div class="dish-price">200</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/d5.jpg"
+              alt="Говяжий рулет">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Жареная рыба с маринадом</div>
+                <div class="dish-name-sub">Жареная рыба в масле с овощами. </div>
+              </div>
+              <div class="energie">Энергетическая ценность - 296 кл.</div>
+              <div class="kolichestvo">210 гр.</div>
+              <div class="dish-price">199</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/d6.jpg"
+              alt="Жареная рыба с маринадом">
+          </a>
+        </div>
+      </div>
+
+      <div id="menu-5" class="tab-content">
+        <h2 class="header">Гарниры</h2>
+        <div class="dish-cards">
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Рагу из птицы кролика</div>
+                <div class="dish-name-sub">Маринад мяса, картошки и моркови.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 212 кл.</div>
+              <div class="kolichestvo">180 гр.</div>
+              <div class="dish-price">299</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/g1.jpg"
+              alt="Рагу из птицы кролика">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Картофель фри с говядиной</div>
+                <div class="dish-name-sub">Отличное сочитание в паре с приятным соусом.  </div>
+              </div>
+              <div class="energie">Энергетическая ценность - 353 кл.</div>
+              <div class="kolichestvo">200 гр.</div>
+              <div class="dish-price">220</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/g2.jpg"
+              alt="Картофель фри с говядиной">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Перекус Альпиниста</div>
+                <div class="dish-name-sub">Тушеное мясо с блинчиками вместе с различными дарами природы</div>
+              </div>
+
+              <div class="energie">Энергетическая ценность - 400 кл.</div>
+              <div class="kolichestvo">360 гр.</div>
+              <div class="dish-price">350</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/g3.jpg"
+              alt="Перекус Альпиниста">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Макароны по флотски</div>
+                <div class="dish-name-sub">Традиционные макароны в сливочном соусе и маринаде из овощей.
+                </div>
+              </div>
+              <div class="energie">Энергетическая ценность - 369 кл.</div>
+              <div class="kolichestvo">300 гр.</div>
+              <div class="dish-price">199</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/g4.jpg"
+              alt="Макароны по флотски">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Жареная картошка с шампиньонами</div>
+                <div class="kolichestvo">220 гр.</div>
+                <div class="dish-name-sub">В составе шампиньоны.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 180 кл.</div>
+              <div class="kolichestvo">220 гр.</div>
+              <div class="dish-price">120</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/g5.jpg"
+              alt="Сало домашнее с горчицей">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Картошка с мясной котлетой</div>
+                <div class="dish-name-sub">вареная картошка вместе с куриной котлетой.  </div>
+                <div class="dish-name-sub"></div>
+              </div>
+              <div class="energie">Энергетическая ценность - 219 кл.</div>
+              <div class="kolichestvo">250 гр.</div>
+              <div class="dish-price">250</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/g6.jpg"
+              alt="Малосольная сёмга">
+          </a>
+        </div>
+      </div>
+
+      <div id="menu-6" class="tab-content">
+        <h2 class="header">Десерты</h2>
+        <div class="dish-cards">
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Пирожное Брауни
+                </div>
+                <div class="dish-name-sub">Брауни со сливочной карамелью и орехами. </div>
+              </div>
+              <div class="energie">Энергетическая ценность - 405 кл.</div>
+              <div class="kolichestvo">200 гр.</div>
+              <div class="dish-price">250</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/f1.jpg"
+              alt="Пирожное Брауни">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Французское печенье макарон </div>
+                <div class="dish-name-sub">Кондитерское изделие из двух слоев.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 118 кл.</div>
+              <div class="kolichestvo">52 гр.</div>
+              <div class="dish-price">99</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/f2.jpg"
+              alt="Французское печенье макарон">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">шоколадно - вишневый Метрополь</div>
+                <div class="dish-name-sub">Метрополь кексообразной формы с вишневым
+                  кремом и шоколадной начинкой внутри.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 220 кл.</div>
+              <div class="kolichestvo">110 гр.</div>
+              <div class="dish-price">150</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/f3.jpg"
+              alt="шоколадно вишневый Метрополь">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Пирожное - корзиночка с клубникой</div>
+                <div class="dish-name-sub">В состав входит ванильное мороженное, кусочки
+                  спелой клубники внутри хрустящей корзинки.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 180 кл.</div>
+              <div class="kolichestvo">150 гр.</div>
+              <div class="dish-price">120</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/f4.jpg"
+              alt="Пирожное - корзиночка с клубникой">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Швейцарский торт - сладкая фантазия</div>
+                <div class="dish-name-sub">На 30% ваниль, на 30% клубника и на 40% шоколад.</div>
+                <div class="dish-name-sub"></div>
+              </div>
+              <div class="energie">Энергетическая ценность - 340 кл.</div>
+              <div class="kolichestvo">200 гр.</div>
+              <div class="dish-price">260</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/f5.jpg"
+              alt="Швейцарский торт - сладкая фантазия">
+          </a>
+          <a href="#" class="dish-card">
+            <div class="dish-desc">
+              <div class="dish-title">
+                <div class="dish-name">Лимонный суфле</div>
+                <div class="dish-name-sub">Диетическое чудо для всех возрастов.</div>
+              </div>
+              <div class="energie">Энергетическая ценность - 72 кл.</div>
+              <div class="kolichestvo">90 гр.</div>
+              <div class="dish-price">80</div>
+            </div>
+            <img class="dish-pic" src="assets/restaurant/f6.jpg"
+              alt="Лимонный суфле">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tab-name-baloon-container">
+      <div class="tab-name-baloon hidden removed"></div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+
+    <div id="scrollerUnHidePoint"></div>
+
+    <div class="container">
+      <img class="footer-logo" src="assets/footer/logo-priz1.png"
+        alt="Benger EAts">
+
+      <hr class="footer-hr">
+
+      <div class="footer-links">
+
+        <div class="footer-links-column">
+          <div class="lang-selector-container">
+
+
+            </select>
+          </div>
+          <div class="footer-link">
+            <a href="#" class="hashtag">Benger EAts</a>
+          </div>
+          <div class="socials-symbols">
+            <a href="#" class="icon-link">
+              <div>
+                <img src="assets/footer/Vk11.ico" alt="Facebook">
+              </div>
+            </a>
+            <a href="#" class="icon-link">
+              <div>
+                <img src="assets/footer/Tel11.ico" alt="Twitter">
+              </div>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="footer-links-column">
+          <div class="footer-link"><a href="#">Об Benger EAts</a></div>
+          <div class="footer-link"><a href="#">Станьте партнёром по
+              доставке</a>
+          </div>
+          <div class="footer-link"><a href="#">Станьте
+              партнёром-рестораном</a>
+          </div>
+        </div>
+
+        <div class="footer-links-column">
+          <div class="footer-link"><a href="#">Все города</a></div>
+          <div class="footer-link"><a href="#">Помощь</a></div>
+          <div class="footer-link"><a href="#">Цены</a></div>
+          <div class="footer-link"><a href="#">FAQs</a></div>
+        </div>
+      </div>
+
+      <hr class="footer-hr">
+
+      <div class="footer-dw-labels">
+        <a href="#">
+          <img src="assets/footer/get_it_on_appstore.png"
+            alt="Download On The AppStore">
+        </a>
+        <a href="#"><img src="assets/footer/get_it_on_google.png"
+            alt="Get It On Google">
+        </a>
+      </div>
+
+      <hr class="footer-hr">
+
+      <div class="footer-legal">
+        <div class="footer-link">
+          <a href="#">© 2023 Benger Technologies Inc.</a>
+        </div>
+        <div class="footer-link">
+          <a href="#">Обработка персональных данных</a>
+        </div>
+        <div class="footer-link">
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+
+      <div class="container">
+        <a class="scroller" id="scroller">
+          <div class="scroller-area"></div>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+<script src="js/scroller.js"></script>
+<script src="js/swiped-events.js"></script>
+<script src="js/menu.js"></script>
+
+</html>
